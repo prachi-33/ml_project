@@ -37,10 +37,10 @@ env/
 .ipynb_checkpoints
 *.ipynb
 
-# Data files (IMPORTANT: Never commit actual Aadhaar data)
-data/raw/*.csv
+# Data files (IMPORTANT: Never commit actual Aadhaar data, but public aggregated data is okay)
+# data/raw/*.csv
 data/processed/
-*.csv
+# *.csv
 *.xlsx
 *.xls
 
